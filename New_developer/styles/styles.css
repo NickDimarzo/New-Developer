@@ -1,0 +1,92 @@
+body {
+    background-color: #101426;
+    font-family: 'Germania One', cursive;
+    color: antiquewhite;
+    width: 75vw;
+   
+}
+
+header {
+    background-color: #101426;
+    border-bottom: 1px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+
+.navigation>h1 {
+    color: #FF7070;
+    font-size: 3.5em;
+    border-style: ridge;
+    border-color: #FF7070;
+    border-radius: 20px;
+    padding: 2%;
+    background-color: #151826;
+
+}
+
+.navigation>a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 2em;
+    border-color: antiquewhite;
+    border-style: ridge;
+    padding: 1%;
+    border-radius: 20px;
+    background-color: #151826;
+}
+
+.test {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75vw;
+}
+
+.div-one {
+    width: auto;
+    height: 75vh;
+    border-color: antiquewhite;
+    border-style: ridge;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.refrences{
+    border-color: #FF7070;
+    border-style: ridge;
+    padding: 1%;
+    border-radius: 20px;
+    text-align: center;
+}
+    
+
+
+.div-two {
+    width: 50vw;
+    height: 75vh;
+    border-color: antiquewhite;
+    border-style: ridge;
+    padding: 10px;
+}
+
+
+.div-three {
+    width:auto;
+    height: 75vh;
+    border-color: antiquewhite;
+    border-style: ridge;
+    padding: 10px;
+}
