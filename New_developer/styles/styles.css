@@ -2,8 +2,18 @@ body {
     background-color: #101426;
     font-family: 'Germania One', cursive;
     color: antiquewhite;
-    width: 75vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    
    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+
+
 }
 
 header {
@@ -45,14 +55,14 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 75vw;
+    width: 100vw;
 }
 
 .div-one {
     width: auto;
     height: 75vh;
-    border-color: antiquewhite;
-    border-style: ridge;
+    /* border-color: antiquewhite; */
+    /* border-style: ridge; */
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -75,10 +85,10 @@ a{
 
 
 .div-two {
-    width: 50vw;
+    width: 75vw;
     height: 75vh;
-    border-color: antiquewhite;
-    border-style: ridge;
+    /* border-color: antiquewhite; */
+    /* border-style: ridge; */
     padding: 10px;
 }
 
@@ -86,7 +96,8 @@ a{
 .div-three {
     width:auto;
     height: 75vh;
-    border-color: antiquewhite;
-    border-style: ridge;
+    /* border-color: antiquewhite; */
+    /* border-style: ridge; */
     padding: 10px;
+    
 }
